@@ -1,0 +1,24 @@
+@charset "utf-8";
+/*css document */
+
+.move
+{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 20px;
+}
+h3
+{
+    font-family: 'Lalezar', cursive;
+}
+#follow, .follow,li, .ppp
+{
+    font-family: 'Changa', sans-serif;
+}
+h2, legend
+{
+    font-family: 'Rakkas', cursive;
+}
+.foot, .phone
+{
+    font-family: 'Jomhuria', cursive;
+}

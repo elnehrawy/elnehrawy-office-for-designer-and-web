@@ -1,0 +1,534 @@
+*
+{
+    
+    box-sizing: border-box;
+    
+}
+body
+{
+    background-color: #ffffff;
+}
+
+#logo
+{ 
+    max-width: 5%;
+    height: auto;
+    
+    border-radius: 50%;
+    
+    margin-top: 1.7%;
+    background-color: blanchedalmond;
+    position:fixed;
+    
+    
+        
+}
+.logocontent
+{
+    float: left;
+    
+}
+.menu
+{
+    max-width: 100%;
+    display:inline-flex;
+    margin-right: 5%;
+    border-radius: 20%;
+    position: fixed;
+    
+    
+    
+}
+h3
+{
+    
+    
+    max-width: 100%;
+    border-radius: 2vw;
+    background-color: blanchedalmond;
+    font-size: 2vw;
+}
+
+.dropdown {
+    position:relative;
+    display:inline-block;
+    max-width: 100%;
+    
+}
+.dropdown-content {
+    display: none;
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width: 20%;
+    
+    
+}
+
+.dropdown-content a {
+    color: black;
+    position: relative;
+    display:block;
+    margin-right: .5vw;
+    margin-top: 0vw;
+    margin-left: .5vw;
+    
+}
+.dropdown:hover .dropdown-content{
+    display:block;
+    font-family: Lalezar;
+    min-width: 10vw;
+    
+}
+.dropdown1 {
+    
+    display:flex;
+    
+    
+}
+.dropdown-content1 {
+    display: none;
+    position:fixed;
+    
+    
+    
+}
+.dropdown1:hover .dropdown-content1{
+    display:inline;
+}
+.inline
+{
+    display:block;
+    margin-left: 2vw; 
+    text-align: center;
+    
+}
+a
+{
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover
+{
+    color: chartreuse;
+    border-bottom: 2px solid black;
+}
+.hover:hover
+{
+    border-bottom: 1vw solid black;
+    color: red;
+}
+.hover
+{
+    color: darkgoldenrod;
+    padding: 1vw;
+    margin-right: 0.5vw;
+    max-width: 100%;
+}
+#logo:hover
+{
+    border-bottom: 10px solid black;
+}
+a:active
+{
+    color: blue;
+}
+a:visited
+{
+    color: brown;
+}
+.move
+{
+    
+    
+    color: black;
+    margin-top: 1vw;
+    padding: 1vw;
+    background-color: blanchedalmond;
+    font-family: cursive;
+    border-radius: 20%;
+}
+
+.ppp
+{
+    
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: Lalezar; 
+    text-align: center;
+    margin: 2vw;
+    padding: 2vw;
+    margin-top: 1vw;
+}
+#market
+{
+    max-width: 100%;
+    height: 20vw;
+    margin-right: 1vw;
+    margin-top: 1vw;
+    
+}
+
+.whatsapp
+{
+    max-width: 25%;
+    height: auto;
+    
+    border-radius: 2vw;
+    margin-top: 10px;
+    
+}
+.facebook
+{
+    max-width: 20%;
+   
+    
+    border-radius: 2vw;
+    margin-top: 1vw;
+}
+#ex
+{
+    max-width: 100%;
+    margin-top: 1vw;
+      
+}
+#front
+{
+    max-width: 100%;
+    height: auto;
+    margin-top: 10%;
+    
+    
+}
+.copy
+{
+    text-align: center;
+    color: white;
+    
+    font-size: 1.0vw;
+}
+footer
+{
+    background-color: #272623;
+    
+    
+        
+}
+.footer
+{
+    display: inline-flex;
+    padding: 1vw;
+    margin: 1vw;
+    max-width: 100%;
+    height: auto;
+    font-size: 1vw;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#card
+{
+    margin-right: 2vw;
+    
+}
+
+.sha
+{
+    text-shadow: #000 0px .6vw;
+    width: 30vw;
+    height: auto;
+}
+
+.call
+{
+    margin-right: 1vw;
+    font-size: 1vw;
+}
+.mee
+{
+    margin-top: 1.5vw;
+    width: 5vw;
+    
+    
+    
+}
+.linkdeco:hover
+{
+    border-bottom: none;
+}
+/*banar*/
+#frontbanar
+{
+    max-width: 100%;
+}
+.frontbanarmovi
+{
+    max-width: 100%;
+    margin-top: 7vw;
+}
+
+
+.aboutus
+{
+    
+    max-width: 50vw;
+}
+.aboutus1
+{
+    
+    max-width: 50vw;
+}
+.marqueephoto
+{
+    max-width: 50%;
+    height: 1vw;
+    
+    
+}
+.resp
+{
+    width: 18vw;
+    height: auto;
+    font-size: 1vw;
+}
+.marqueephotowhatsappmenu
+{
+    max-width: 100%;
+    height: 3vw;
+    margin-right: 3vw;
+}
+.imagmenu
+{
+    margin-top: 1vw;
+    width: 100%;
+    margin-right: 1vw;
+}
+.photoside
+{
+    display: flex;
+    
+}
+
+.follow
+{
+    margin: 1vw;
+    margin-top: 20px;
+    font-size: 1vw;
+    text-align: center;
+    padding: 1vw;
+}
+#follow
+{
+    text-align: center;
+    font-size: 1vw;
+    max-width: 50%;
+    margin: 1vw;
+    margin-right: 4vw;
+    padding: 2vw;
+    
+}
+.good
+{
+    
+    font-size: 2vw;
+    text-align: center;
+}
+.fawaqed
+{
+    max-width: 50%;
+    float: left
+}
+
+legend
+{
+    font-size: 2vw;
+    padding: 1vw;
+}
+li
+{
+    font-size: 1vw;
+    font-weight: bold;
+    padding: 1vw;
+}
+.whatsap
+{
+    text-align: center;
+    max-width: 100%;
+}
+.phone
+{
+    font-size: 2vw;
+    max-width: 50%;
+}
+#myphone
+{
+    font-size: 2vw;
+}
+.htmlphoto
+{
+    max-width: 50%;
+    height: 100vw;
+    
+    
+}
+
+.child  
+{
+    display: flex;
+    margin: 1vw;
+    margin-right: 3vw;
+}
+@media only screen and (min-width: 400px){
+    ul{
+        list-style-image: url(photo/logolist.png); 
+    }  
+    }
+ul
+{
+    background: ;
+}
+
+ol
+{
+    background: ;
+}
+.twasolbanar
+{
+    font-size: 2vw;
+    
+    
+}
+.logophotos
+{
+    padding: 1vw;
+    margin: 1vw;
+    text-align: center;
+}
+.logofristphoto
+{
+    width: 20%;
+    height: auto;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+.logosecondphoto
+{
+    width: 40%;
+    height: auto;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+.logotherdphoto
+{
+    width: 20%;
+    height: auto;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+.krotphoto
+{
+    max-width: 100%;
+    margin: 1vw;
+    
+    text-align: center;
+}
+.krotfristphoto
+{
+    width: 30%;
+}
+.krotsecondphoto
+{
+    width: 50%;
+}
+.promophoto
+{
+    width: 100%;
+}
+.pcphoto
+{
+    display: inline-flex;
+    
+    
+    
+}
+.logosecondphotopc
+{
+    width: 20vw;
+    height: 15vw;
+    
+}
+.pctext
+{
+    width: 30vw;
+    height: 15vw;
+    font-size: 1vw;
+    
+}
+
+.pcphoto3
+{
+    width: 20vw;
+    height: 15vw;
+    margin-right: 1vw; 
+}
+.logophotospc
+{
+    max-width: 100%;
+    margin: .5vw;
+    height: 17vw;
+    text-align: center;
+}
+#frontbanarpc
+{
+    max-width: 100%;
+    margin-top: 7vw;
+}
+.gmail
+{
+    max-width: 100%;
+    height: 3vw;
+    
+}
+
+/*jssor slider loading skin spin css*/
+#jssor_1
+{
+   
+}
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /*jssor slider bullet skin 101 css*/
+        .jssorb101 .i {position:absolute;cursor:pointer;}
+        .jssorb101 .i .ci {fill:#000;}
+        .jssorb101 .i .co {fill:#fff;opacity:.3;}
+        .jssorb101 .i:hover .co {fill:#ff9933;opacity: 1;}
+        .jssorb101 .i:hover .ci {fill:#fff;}
+        .jssorb101 .iav .ci {fill:#fff;stroke-width:0;}
+        .jssorb101 .iav .co {fill:#46d1d3;opacity: 1;}
+        .jssorb101 .i.idn {opacity:.3;}
+
+        /*jssor slider arrow skin 051 css*/
+        .jssora051 {display:block;position:absolute;cursor:pointer;}
+        .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+        .jssora051:hover {opacity:.8;}
+        .jssora051.jssora051dn {opacity:.5;}
+        .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+
+
+
+
+
+/*sliders*/
+
+
